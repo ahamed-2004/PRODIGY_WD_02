@@ -1,0 +1,69 @@
+/* styles.css */
+html, body {
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+    font-family: Arial, sans-serif; 
+    background-image: url('background-img.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.stopwatch {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make the container full height of viewport */
+    margin-top: 50px;
+}
+
+.display {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #CCD3CA; /* Deep Purple */
+    border: 10px solid #B5C0D0; /* Deep Orange */
+    border-radius: 50%; /* Create a circular border */
+    width: 200px; /* Set a fixed width for the circular border */
+    height: 200px; /* Set a fixed height for the circular border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.start {
+    background-color: #638889; /* Green */
+    color: #F9EFDB;
+}
+
+.pause {
+    background-color: #638889; /* Amber */
+    color: #F9EFDB;
+}
+
+.reset {
+    background-color: #638889; /* Blue */
+    color: #F9EFDB;
+}
+
+.lap {
+    background-color: #638889; /* Deep Orange */
+    color: #F9EFDB;
+}
+
+.laps {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    color: #F9EFDB;
+}
