@@ -20,10 +20,6 @@ This is a simple stopwatch web application built using HTML, CSS, and JavaScript
     - Click **Reset** to reset the stopwatch to 00:00:00.
     - Click **Lap** to record lap times.
 
-## Preview
-
-![Colorful Stopwatch](preview.png)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
